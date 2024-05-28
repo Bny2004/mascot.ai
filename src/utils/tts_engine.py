@@ -18,7 +18,7 @@ chat = yt_chat(video_id)
 while chat.is_alive():
         for c in chat.get().sync_items():
             print(f"{c.datetime} [{c.author.name}]- {c.message}")
-            engine.say(c.message)
+            engine.say(f"{c.author.name} said {c.message}")
             engine.runAndWait()
 engine.stop()
 
