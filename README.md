@@ -1,7 +1,6 @@
 # mascot.ai
 
 > [!IMPORTANT]
-
 Right now, just and only run `tts_engine.py`. Even though we are importing all other files into `mascot.ai.py` (main file or entry point), the idea isn't clear and without running **VTubeStudio** first, `mascot.ai.py` will not run as we might expect. There is nothing I can do as I can't even run **VTubeStudio** and my IDE at the same time.
 
 - Right now it requires additional software like **Voicemeeter** to make, for example the terminal this program ran from, act as the microphone source for the **VTubeStudio**.
