@@ -18,3 +18,19 @@ Right now, just and only run `tts_engine.py`. Even though we are importing all o
 - Also then, what do we want this program to achieve in interaction with **VTubeStudio**?
 
     - ?
+
+- We need the model inside the **VTubeStudio** to speak/talk the message sent on the Live chat, right?
+
+    - So, we will also want the model to, like move or blink or just do something instead of just standing there, right?
+
+    - If that's the case, we'll need to feed/send some kind of tracking data into **VTubeStudio**. As I saw someone played a random video of someone and made the video as the camera input for the model's movement using **OBS Virtual Camera**.
+
+    - So, if we do the similar, than we don't have to care about the model's movement (beside emotes) using this program, right?
+
+- BUT, to really make sense of "**ai**" in the name of this project/program/script:
+
+    - We can send custom tracking data to **VTubeStudio** including the emotes and stuff by analyzing the sentiments of the text/message (in the chat).
+
+    - I've seen a Python library which satisfies our requirements of analyzing the sentiments of the given text, BUT it's unmaintained + if we try to still use it, IT USES MICROSOFT AZURE AND REQUIRES A SUBSCRIPTION. Mean, MONY!!! (T_T)
+
+    - Beside that, I am not sure if it's possible to send custom tracking data to **VTubeStudio** and HOW !
