@@ -39,7 +39,7 @@
     - If you are in the parent directory: `python src/mascot_ai.py`
     - Or change directory inside "src": `cd src/` and then `python mascot_ai.py`
 
-- It will now prompt for the "Video ID" of a Live Steam. Which is just a 11 characters long string. Which will be like this "**cpKdPfyJRdk**" after the `=` sign in the URL bar: "**https://www.youtube.com/watch?v=**".
+- It will now prompt for the "Video ID" of a Live Stream, which is just a 11 characters long string. It will be like this "**cpKdPfyJRdk**" after the `=` sign in the URL bar: "**https://www.youtube.com/watch?v=**".
 
     - Just copy and paste this ID of your or any live stream and hit return/enter key.
 
@@ -57,7 +57,7 @@
 
 - This project uses the `pyinstaller` to create binary executables.
 
-- So, there are really 3 important when it comes to building a binary using *pyinstaller*:
+- So, there are really 3 important files when it comes to building a binary using *pyinstaller*:
 
     - `file_version_info.txt`, `mascot.ai.spec` and `build.py`.
 
