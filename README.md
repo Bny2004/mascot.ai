@@ -57,6 +57,8 @@
 
 - This project uses the `pyinstaller` to create binary executables.
 
+    - Make sure to install it by running: `pip install -r optional_requirements.txt`
+
 - So, there are really 3 important files when it comes to building a binary using *pyinstaller*:
 
     - `file_version_info.txt`, `mascot.ai.spec` and `build.py`.
