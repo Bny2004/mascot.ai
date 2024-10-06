@@ -1,9 +1,11 @@
 import pytchat
 
+
 def yt_chat(video_id):
     chat = pytchat.create(video_id=video_id)
 
     return chat
+
 
 if __name__ == "__main__":
     video_id = input("Enter YouTube Live Stream video ID: ")
