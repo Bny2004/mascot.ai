@@ -1,5 +1,9 @@
 # mascot.ai
 
+> [!IMPORTANT]
+> It seems that `pyttsx3` is not working on Windows 11 (out of the box).
+> Need to think about some other solution.. 🫠
+
 ## Table of Content
 
 * [Step 1 - Run the Program](#step-1---run-the-program)
